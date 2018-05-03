@@ -17,18 +17,50 @@
  */
 
 require_once dirname(__FILE__) . '/../../../core/php/core.inc.php';
-
-function template_install() {
-    
+function RTSP_install() {
+  $captures_path = dirname(__FILE__) . '/../captures';
+  exec('rm -rf '. $captures_path . '/*');
+  exec('../3rdparty/addsymblinkstoapache.sh');
+/*
+    $cron = cron::byClassAndFunction('RTSP', 'pull');
+    if (!is_object($cron)) {
+        $cron = new cron();
+        $cron->setClass('RTSP');
+        $cron->setFunction('pull');
+        $cron->setEnable(1);
+        $cron->setDeamon(0);*/
+      //  $cron->setSchedule('*/5 * * * *');
+      /*  $cron->save();
+    }
+    */
 }
 
-function template_update() {
-    
+function RTSP_update() {
+  exec('../3rdparty/reset.sh');
+  $captures_path = dirname(__FILE__) . '/../captures';
+  exec('rm -rf '. $captures_path . '/*');
+  exec('../3rdparty/addsymblinkstoapache.sh');
+  /*  $cron = cron::byClassAndFunction('RTSP', 'pull');
+    if (!is_object($cron)) {
+        $cron = new cron();
+        $cron->setClass('RTSP');
+        $cron->setFunction('pull');
+        $cron->setEnable(1);
+        $cron->setDeamon(0); */
+      //  $cron->setSchedule('*/5 * * * *');
+      /*  $cron->save();
+    }
+    $cron->stop(); */
 }
 
-
-function template_remove() {
-    
+function RTSP_remove() {
+  exec('../3rdparty/reset.sh');
+  $captures_path = dirname(__FILE__) . '/../captures';
+  exec('rm -rf '. $captures_path . '/*');
+  /*  $cron = cron::byClassAndFunction('RTSP', 'pull');
+    if (is_object($cron)) {
+        $cron->remove();
+    }
+    */
 }
-
 ?>
