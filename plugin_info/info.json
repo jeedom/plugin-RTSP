@@ -8,5 +8,7 @@
 "category" : "security",
 "hasDependency" : true,
 "hasOwnDeamon" : false,
-"maxDependancyInstallTime" : 45
+       "maxDependancyInstallTime" : 45,
+        "changelog" : "https://jeedom.github.io/plugin-RTSP/#language#/changelog",
+        "documentation" : "https://jeedom.github.io/plugin-RTSP/#language#/"
 }
