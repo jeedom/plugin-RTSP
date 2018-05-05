@@ -1,0 +1,126 @@
+{
+    "plugins\/RTSP\/plugin_info\/info.xml": {
+        "Plugin de compatibilité RTSP avec le plugin Caméra": "Kamera eklentisiyle RSTP nin uyumluluğunu sağlayan eklenti",
+        "Il est nécessaire d'utiliser le plugin Camera en précisant l'adresse IP ou le nom de votre Jeedom où est installé ce plugin. Le plugin RTSP prépare l'image qui est ensuite utilisée par le plugin Camera.": "Il est nécessaire d'utiliser le plugin Camera en précisant l'adresse IP ou le nom de votre Jeedom où est installé ce plugin. Le plugin RTSP prépare l'image qui est ensuite utilisée par le plugin Camera."
+    },
+    "plugins\/RTSP\/plugin_info\/configuration.php": {
+        "Dépendances : ": "Dépendances : ",
+        "Dépendances :": "Bağımlılıklar :",
+        "Installer": "Yükle",
+        "Etes-vous sûr de vouloir installer les dépendances ": "Etes-vous sûr de vouloir installer les dépendances ",
+        "Installation": "Kurulum",
+        "Réparer :": "Tamir et :",
+        "Forcer l\\'arrêt de tous les services RTSP": "Forcer l\\'arrêt de tous les services RTSP",
+        "Etes-vous sûr de vouloir installer les dépendances ?": "Bağımlılıkları yüklemek istediğinizden emin misiniz?",
+        "Etes-vous sûr de vouloir forcer l\\'arrêt la totalité des services RTSP ?": "Etes-vous sûr de vouloir forcer l\\'arrêt la totalité des services RTSP ?",
+        "Reset": "sıfırlamak",
+        "Etes-vous sûr de vouloir forcer l'arrêt la totalité des services RTSP ?": "Tüm RTSP hizmetlerinin kapanmasını zorlamak istediğinizden emin misiniz?",
+        "Forcer l'arrêt de tous les services RTSP": "Tüm RTSP hizmetlerini zorla kapat",
+        "Configuration :": "Configuration :",
+        "Accès à la configuration": "Accès à la configuration",
+        "Apache Configuration :": "Apache Configuration :",
+        "Autoriser les liens symboliques": "Autoriser les liens symboliques",
+        "Faire un don au développeur": "Yazılımcıya bağış yapın",
+        "Faire un don via Paypal au développeur": "Paypal\\'dan yazılımcıya bağışda bulunun",
+        "Etes-vous sûr de vouloir modifier la configuration d\\'Apache ? Assurez-vous de bien utiliser celui-ci et non Nginx !": "Etes-vous sûr de vouloir modifier la configuration d\\'Apache ? Assurez-vous de bien utiliser celui-ci et non Nginx !",
+        "Configuration Apache": "Configuration Apache"
+    },
+    "plugins\/RTSP\/desktop\/modal\/update.RTSP.php": {
+        "Pause": "Durdur",
+        "Rechercher": "Arayın"
+    },
+    "plugins\/RTSP\/desktop\/php\/RTSP.php": {
+        "Ajouter un flux": "akış ekle",
+        "Rechercher": "Arayın",
+        "Mes flux RTSP": "RTPS akışlarım",
+        "Général": "Genel",
+        "Nom de l'équipement RTSP": "RSTP cihazın ismi",
+        "Objet parent": "Ana nesne",
+        "Aucun": "Hiçbir",
+        "Catégorie": "Kategori",
+        "Activer": "Etkinleştir",
+        "Visible": "Görülebilir",
+        "Adresse IP": "IP adresi",
+        "Complément url (port:chemin)": "Ek url (Port : yol)",
+        "Nom": "Soyisim",
+        "URL de capture (pour le plugin camera)": "Yakalama URL'i (kamera eklentisi için)",
+        "Commandes": "Komutalar",
+        "Type": "Çeşit",
+        "Action": "Eylem",
+        "Supprimer": "Sil",
+        "Sauvegarder": "Kaydet",
+        "Résolution": "çözünür",
+        "Login": "Rumuz",
+        "Password": "şifre",
+        "Port": "Port",
+        "Complément url (chemin)": "Ek URL (yol)",
+        "Nom de la caméra": "Kamera ismi",
+        "Délai (en seconde)}<\/label>\n  <div class=\"col-sm-3\">\n    <input type=\"text\" class=\"eqLogicAttr form-control\" data-l1key=\"configuration\" data-l2key=\"delay\"\/>\n  <\/div>\n<\/div>\n<div class=\"form-group\">\n  <label class=\"col-sm-3 control-label\">{{Login": "Délai (en seconde)}<\/label>\n  <div class=\"col-sm-3\">\n    <input type=\"text\" class=\"eqLogicAttr form-control\" data-l1key=\"configuration\" data-l2key=\"delay\"\/>\n  <\/div>\n<\/div>\n<div class=\"form-group\">\n  <label class=\"col-sm-3 control-label\">{{Login",
+        "Paramètres": "Ayarlar",
+        "Délai (en seconde)}<\/label>\n\t\t\t\t\t  <div class=\"col-sm-3\">\n\t\t\t\t\t    <input type=\"text\" class=\"eqLogicAttr form-control\" data-l1key=\"configuration\" data-l2key=\"delay\"\/>\n\t\t\t\t\t  <\/div>\n\t\t\t\t\t<\/div>\n\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t  <label class=\"col-sm-3 control-label\">{{Nom d'utilisateur": "Délai (en seconde)}<\/label>\n\t\t\t\t\t  <div class=\"col-sm-3\">\n\t\t\t\t\t    <input type=\"text\" class=\"eqLogicAttr form-control\" data-l1key=\"configuration\" data-l2key=\"delay\"\/>\n\t\t\t\t\t  <\/div>\n\t\t\t\t\t<\/div>\n\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t  <label class=\"col-sm-3 control-label\">{{Nom d'utilisateur",
+        "Mot de passe": "Şifre",
+        "Options": "Opsiyonlar",
+        "Délai (en seconde)": "Süre ( saniye )",
+        "Nom d'utilisateur": "Kullanıcı adı ",
+        "Rafraichissement (s)": "Yenileme (san.)",
+        "Emplacement des captures": "Yakalama yeri",
+        "\/tmp": "\/tmp",
+        "Résultat": "Sonuç",
+        "Test": "Test, denetleme",
+        "Ouvrir la capture (F5 pour raffraîchir)": "Yakalama'yı aç (yenilemek için F5)",
+        "Tester": "Test et",
+        "Rafraîchir": "Yenile",
+        "Aperçu de la capture": "Yakalama görüntüsü",
+        "Status": "Durum",
+        "Service Status": "Hizmet Durumu",
+        "Protocole": "Protokol",
+        "Horodatage": "zaman damgası",
+        "Personnalisation": "Kişileştirme",
+        "Logs": "Loglar",
+        "Gestion": "Yönetim",
+        "Configuration": "Ayarlar",
+        "Assistant": "Yardımcı",
+        "Trouver les informations de ma Camera": "Trouver les informations de ma Camera",
+        "Résolution en pixels": "Résolution en pixels",
+        "Assistant Informations Camera": "Assistant Informations Camera"
+    },
+    "plugins\/RTSP\/desktop\/js\/RTSP.js": {
+        "Nom": "Soyisim",
+        "Afficher": "Göster",
+        "Historiser": "Tarihe göre sırala",
+        "Tester": "Test et"
+    },
+    "plugins\/RTSP\/core\/class\/RTSP.class.php": {
+        "Le champs Nom ne peut contenir de caracteres speciaux": "Ad alanı, özel karakterler içeremez",
+        "Le champs Nom ne peut contenir d'espaces": "Ad alanı boşluk içeremez",
+        "Le champs Port ne peut être vide": "Bağlantı noktası alanı (Port) boş olamaz",
+        "Le champs Nom ne peut contenir de caractères spéciaux": "Ad alanı, özel karakterler içeremez",
+        "Le champs Résolution doit être formaté 0000x000": "Çözünürlük alanı 0000x000 olarak biçimlendirilmelidir",
+        "Le champs Résolution doit être au format nombrexnombre (ex 1280x720)": "Çözünürlük alanı, sayı numarası biçiminde olmalıdır (misal 1280 x 720)",
+        "Le champs Port ne peut contenir autre chose que des chiffres": "Bağlantı noktası (Port) alanı yalnızca numaraları içerebilir",
+        "Le champs Délai ne peut être vide": "Süre alanı boş olamaz",
+        "Le champs Délai ne peut contenir autre chose que des chiffres": "Süre alanı yalnızca numaralar içerebilir",
+        "Le champs Complément URL ne peut être vide": "Ek URL alanı boş olamaz",
+        "Le champs Complément URL doit commencer par un \/": "Le champs Complément URL doit commencer par un \/",
+        "Le champs Emplacement des captures doit commencer par un \/": "Le champs Emplacement des captures doit commencer par un \/"
+    },
+    "plugins\/RTSP\/desktop\/modal\/reset.RTSP.php": {
+        "Pause": "Durdur",
+        "Rechercher": "Arayın"
+    },
+    "plugins\/RTSP\/core\/ajax\/RTSP.ajax.php": {
+        "Aucune methode correspondante à : ": "Aucune methode correspondante à : "
+    },
+    "plugins\/RTSP\/desktop\/modal\/status.RTSP.php": {
+        "Pause": "Durdur",
+        "Rechercher": "Arayın"
+    },
+    "plugins\/RTSP\/desktop\/modal\/log.RTSP.php": {
+        "Pause": "Durdur",
+        "Rechercher": "Arayın"
+    },
+    "plugins\/RTSP\/desktop\/modal\/assistant.RTSP.php": {
+        "Marque Camera": "Marque Camera",
+        "Rechercher": "Arayın"
+    }
+}

@@ -1,107 +1,126 @@
 {
-    "plugins/RTSP/plugin_info/info.xml": {
-        "Plugin de compatibilité RTSP avec le plugin Caméra": "Plugin de compatibilité RTSP avec le plugin Caméra"
+    "plugins\/RTSP\/plugin_info\/info.xml": {
+        "Plugin de compatibilité RTSP avec le plugin Caméra": "Plugin de compatibilité RTSP avec le plugin Caméra",
+        "Il est nécessaire d'utiliser le plugin Camera en précisant l'adresse IP ou le nom de votre Jeedom où est installé ce plugin. Le plugin RTSP prépare l'image qui est ensuite utilisée par le plugin Camera.": "Il est nécessaire d'utiliser le plugin Camera en précisant l'adresse IP ou le nom de votre Jeedom où est installé ce plugin. Le plugin RTSP prépare l'image qui est ensuite utilisée par le plugin Camera."
     },
-    "plugins/RTSP/plugin_info/configuration.php": {
-        "Dépendances : ": "Abhängigkeiten : ",
+    "plugins\/RTSP\/plugin_info\/configuration.php": {
+        "Dépendances : ": "Dépendances : ",
         "Dépendances :": "Abhängigkeiten : ",
         "Installer": "installieren",
-        "Etes-vous sûr de vouloir installer les dépendances ": "Sind sie sicher, dass sie die Abhängigkeiten installieren möchten",
+        "Etes-vous sûr de vouloir installer les dépendances ": "Etes-vous sûr de vouloir installer les dépendances ",
         "Installation": "Installation",
-        "Réparer :": "Réparer :",
+        "Réparer :": "Reparieren :",
         "Forcer l\\'arrêt de tous les services RTSP": "Forcer l\\'arrêt de tous les services RTSP",
-        "Etes-vous sûr de vouloir installer les dépendances ?": "Etes-vous sûr de vouloir installer les dépendances ?",
+        "Etes-vous sûr de vouloir installer les dépendances ?": "Sind sie sicher, dass sie die Abhängigkeiten installieren möchten ?",
         "Etes-vous sûr de vouloir forcer l\\'arrêt la totalité des services RTSP ?": "Etes-vous sûr de vouloir forcer l\\'arrêt la totalité des services RTSP ?",
         "Reset": "rücksetzen",
-        "Etes-vous sûr de vouloir forcer l'arrêt la totalité des services RTSP ?": "Etes-vous sûr de vouloir forcer l'arrêt la totalité des services RTSP ?",
-        "Forcer l'arrêt de tous les services RTSP": "Forcer l'arrêt de tous les services RTSP"
+        "Etes-vous sûr de vouloir forcer l'arrêt la totalité des services RTSP ?": "Sind Sie sicher, dass Sie das Stoppen alle RTSP-Diensten erzwingen wollen ?",
+        "Forcer l'arrêt de tous les services RTSP": "Stopp aller RTSP Dienste erzwingen",
+        "Configuration :": "Configuration :",
+        "Accès à la configuration": "Accès à la configuration",
+        "Apache Configuration :": "Apache Configuration :",
+        "Autoriser les liens symboliques": "Autoriser les liens symboliques",
+        "Faire un don au développeur": "Spenden Sie für den Entwickler",
+        "Faire un don via Paypal au développeur": "Machen Sie eine Spende, über Paypal, für den Entwickler",
+        "Etes-vous sûr de vouloir modifier la configuration d\\'Apache ? Assurez-vous de bien utiliser celui-ci et non Nginx !": "Etes-vous sûr de vouloir modifier la configuration d\\'Apache ? Assurez-vous de bien utiliser celui-ci et non Nginx !",
+        "Configuration Apache": "Configuration Apache"
     },
-    "plugins/RTSP/desktop/modal/update.RTSP.php": {
+    "plugins\/RTSP\/desktop\/modal\/update.RTSP.php": {
         "Pause": "Pause",
         "Rechercher": "Suchen nach"
     },
-    "plugins/RTSP/desktop/php/RTSP.php": {
-        "Ajouter un flux": "Ajouter un flux",
+    "plugins\/RTSP\/desktop\/php\/RTSP.php": {
+        "Ajouter un flux": "Stream hinzufügen",
         "Rechercher": "Suchen nach",
-        "Mes flux RTSP": "Mes flux RTSP",
+        "Mes flux RTSP": "Mein RTSP Stream",
         "Général": "Allgemein",
-        "Nom de l'équipement RTSP": "Nom de l'équipement RTSP",
+        "Nom de l'équipement RTSP": "RTSP Gerätename",
         "Objet parent": "Eltern-Objekt",
         "Aucun": "Ohne",
         "Catégorie": "Kategorie",
         "Activer": "aktivieren",
         "Visible": "Sichtbar",
         "Adresse IP": "IP Adresse",
-        "Complément url (port:chemin)": "Complément url (port:chemin)",
+        "Complément url (port:chemin)": "Zusätzliche URL (Port:Pfad)",
         "Nom": "Name",
-        "URL de capture (pour le plugin camera)": "URL de capture (pour le plugin camera)",
+        "URL de capture (pour le plugin camera)": "Capture-URL (für das Kamera-Plugin)",
         "Commandes": "Befehle",
         "Type": "Typ",
         "Action": "Aktion",
         "Supprimer": "Löschen",
         "Sauvegarder": "Speichern",
-        "Résolution": "Résolution",
+        "Résolution": "Auflösung",
         "Login": "Einloggen",
         "Password": "Password",
         "Port": "Port",
-        "Complément url (chemin)": "Complément url (chemin)",
-        "Nom de la caméra": "Nom de la caméra",
-        "Délai (en seconde)}</label>\n  <div class=\"col-sm-3\">\n    <input type=\"text\" class=\"eqLogicAttr form-control\" data-l1key=\"configuration\" data-l2key=\"delay\"/>\n  </div>\n</div>\n<div class=\"form-group\">\n  <label class=\"col-sm-3 control-label\">{{Login": "Délai (en seconde)}</label>\n  <div class=\"col-sm-3\">\n    <input type=\"text\" class=\"eqLogicAttr form-control\" data-l1key=\"configuration\" data-l2key=\"delay\"/>\n  </div>\n</div>\n<div class=\"form-group\">\n  <label class=\"col-sm-3 control-label\">{{Login",
+        "Complément url (chemin)": "Zusätzliche URL (Pfad)",
+        "Nom de la caméra": "Kamera Name",
+        "Délai (en seconde)}<\/label>\n  <div class=\"col-sm-3\">\n    <input type=\"text\" class=\"eqLogicAttr form-control\" data-l1key=\"configuration\" data-l2key=\"delay\"\/>\n  <\/div>\n<\/div>\n<div class=\"form-group\">\n  <label class=\"col-sm-3 control-label\">{{Login": "Délai (en seconde)}<\/label>\n  <div class=\"col-sm-3\">\n    <input type=\"text\" class=\"eqLogicAttr form-control\" data-l1key=\"configuration\" data-l2key=\"delay\"\/>\n  <\/div>\n<\/div>\n<div class=\"form-group\">\n  <label class=\"col-sm-3 control-label\">{{Login",
         "Paramètres": "Parameter",
-        "Délai (en seconde)}</label>\n\t\t\t\t\t  <div class=\"col-sm-3\">\n\t\t\t\t\t    <input type=\"text\" class=\"eqLogicAttr form-control\" data-l1key=\"configuration\" data-l2key=\"delay\"/>\n\t\t\t\t\t  </div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t  <label class=\"col-sm-3 control-label\">{{Nom d'utilisateur": "Délai (en seconde)}</label>\n\t\t\t\t\t  <div class=\"col-sm-3\">\n\t\t\t\t\t    <input type=\"text\" class=\"eqLogicAttr form-control\" data-l1key=\"configuration\" data-l2key=\"delay\"/>\n\t\t\t\t\t  </div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t  <label class=\"col-sm-3 control-label\">{{Nom d'utilisateur",
+        "Délai (en seconde)}<\/label>\n\t\t\t\t\t  <div class=\"col-sm-3\">\n\t\t\t\t\t    <input type=\"text\" class=\"eqLogicAttr form-control\" data-l1key=\"configuration\" data-l2key=\"delay\"\/>\n\t\t\t\t\t  <\/div>\n\t\t\t\t\t<\/div>\n\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t  <label class=\"col-sm-3 control-label\">{{Nom d'utilisateur": "Délai (en seconde)}<\/label>\n\t\t\t\t\t  <div class=\"col-sm-3\">\n\t\t\t\t\t    <input type=\"text\" class=\"eqLogicAttr form-control\" data-l1key=\"configuration\" data-l2key=\"delay\"\/>\n\t\t\t\t\t  <\/div>\n\t\t\t\t\t<\/div>\n\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t  <label class=\"col-sm-3 control-label\">{{Nom d'utilisateur",
         "Mot de passe": "Passwort",
         "Options": "Optionen",
-        "Délai (en seconde)": "Délai (en seconde)",
+        "Délai (en seconde)": "Zeit (in Sekunden)",
         "Nom d'utilisateur": "Benutzername",
         "Rafraichissement (s)": "Aktualisierung (S)",
-        "Emplacement des captures": "Emplacement des captures",
-        "/tmp": "/tmp",
+        "Emplacement des captures": "Aufnahmeort",
+        "\/tmp": "\/tmp",
         "Résultat": "Ergebnis",
         "Test": "Test",
-        "Ouvrir la capture (F5 pour raffraîchir)": "Ouvrir la capture (F5 pour raffraîchir)",
+        "Ouvrir la capture (F5 pour raffraîchir)": "Aufnahme öffnen (F5 zum aktualisieren)",
         "Tester": "Test",
         "Rafraîchir": "Aktualisieren",
-        "Aperçu de la capture": "Aperçu de la capture",
+        "Aperçu de la capture": "Übersicht der Aufnahmen",
         "Status": "Status",
-        "Service Status": "Service Status",
-        "Protocole": "Protocole",
-        "Horodatage": "Horodatage",
-        "Personnalisation": "Personnalisation",
-        "Logs": "Logs"
+        "Service Status": "Service-Status",
+        "Protocole": "Protokolle",
+        "Horodatage": "Zeitstempel",
+        "Personnalisation": "Personalisierung",
+        "Logs": "Protokolle",
+        "Gestion": "Verwaltung",
+        "Configuration": "Konfiguration",
+        "Assistant": "Assistent",
+        "Trouver les informations de ma Camera": "Trouver les informations de ma Camera",
+        "Résolution en pixels": "Résolution en pixels",
+        "Assistant Informations Camera": "Assistant Informations Camera"
     },
-    "plugins/RTSP/desktop/js/RTSP.js": {
+    "plugins\/RTSP\/desktop\/js\/RTSP.js": {
         "Nom": "Name",
         "Afficher": "anzeigen",
         "Historiser": "Chronik",
         "Tester": "Test"
     },
-    "plugins/RTSP/core/class/RTSP.class.php": {
-        "Le champs Nom ne peut contenir de caracteres speciaux": "Le champs Nom ne peut contenir de caracteres speciaux",
-        "Le champs Nom ne peut contenir d'espaces": "Le champs Nom ne peut contenir d'espaces",
-        "Le champs Port ne peut être vide": "Le champs Port ne peut être vide",
-        "Le champs Nom ne peut contenir de caractères spéciaux": "Le champs Nom ne peut contenir de caractères spéciaux",
-        "Le champs Résolution doit être formaté 0000x000": "Le champs Résolution doit être formaté 0000x000",
-        "Le champs Résolution doit être au format nombrexnombre (ex 1280x720)": "Le champs Résolution doit être au format nombrexnombre (ex 1280x720)",
-        "Le champs Port ne peut contenir autre chose que des chiffres": "Le champs Port ne peut contenir autre chose que des chiffres",
-        "Le champs Délai ne peut être vide": "Le champs Délai ne peut être vide",
-        "Le champs Délai ne peut contenir autre chose que des chiffres": "Le champs Délai ne peut contenir autre chose que des chiffres",
-        "Le champs Complément URL ne peut être vide": "Le champs Complément URL ne peut être vide",
-        "Le champs Complément URL doit commencer par un /": "Le champs Complément URL doit commencer par un /",
-        "Le champs Emplacement des captures doit commencer par un /": "Le champs Emplacement des captures doit commencer par un /"
+    "plugins\/RTSP\/core\/class\/RTSP.class.php": {
+        "Le champs Nom ne peut contenir de caracteres speciaux": "Der Namen im Feld darf keine Sonderzeichen enthalten.",
+        "Le champs Nom ne peut contenir d'espaces": "Der Name im Feld darf keine Leerzeichen enthalten.",
+        "Le champs Port ne peut être vide": "Das Feld Port darf nicht leer sein.",
+        "Le champs Nom ne peut contenir de caractères spéciaux": "Der Namen im Feld darf keine Sonderzeichen enthalten.",
+        "Le champs Résolution doit être formaté 0000x000": "Die Feldauflösung muß das Format 0000x000 haben",
+        "Le champs Résolution doit être au format nombrexnombre (ex 1280x720)": "Die Feldauflösung muß das Format ZahlxZahl haben (z.B 1280x720)",
+        "Le champs Port ne peut contenir autre chose que des chiffres": "Das Feld Port darf nichts anderes als Zahlen enthalten.",
+        "Le champs Délai ne peut être vide": "Das Feld Zeit darf nicht leer sein.",
+        "Le champs Délai ne peut contenir autre chose que des chiffres": "Das Feld Zeit darf nichts anderes als Zahlen enthalten.",
+        "Le champs Complément URL ne peut être vide": "Das Feld zusätzliche URL darf nicht leer sein.",
+        "Le champs Complément URL doit commencer par un \/": "Le champs Complément URL doit commencer par un \/",
+        "Le champs Emplacement des captures doit commencer par un \/": "Le champs Emplacement des captures doit commencer par un \/"
     },
-    "plugins/RTSP/desktop/modal/reset.RTSP.php": {
+    "plugins\/RTSP\/desktop\/modal\/reset.RTSP.php": {
         "Pause": "Pause",
         "Rechercher": "Suchen nach"
     },
-    "plugins/RTSP/core/ajax/RTSP.ajax.php": {
-        "Aucune methode correspondante à : ": "Keine passenden Methode, um :"
+    "plugins\/RTSP\/core\/ajax\/RTSP.ajax.php": {
+        "Aucune methode correspondante à : ": "Aucune methode correspondante à : "
     },
-    "plugins/RTSP/desktop/modal/status.RTSP.php": {
+    "plugins\/RTSP\/desktop\/modal\/status.RTSP.php": {
         "Pause": "Pause",
         "Rechercher": "Suchen nach"
     },
-    "plugins/RTSP/desktop/modal/log.RTSP.php": {
+    "plugins\/RTSP\/desktop\/modal\/log.RTSP.php": {
         "Pause": "Pause",
-        "Rechercher": "Rechercher"
+        "Rechercher": "Suchen nach"
+    },
+    "plugins\/RTSP\/desktop\/modal\/assistant.RTSP.php": {
+        "Marque Camera": "Marque Camera",
+        "Rechercher": "Suchen nach"
     }
 }
